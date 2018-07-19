@@ -11,8 +11,11 @@ import {
   List,
   Quote,
   Slide,
-  Text,
 } from 'spectacle';
+
+import {Title} from './slides/01-title/content';
+import { UnitTestingContent} from './slides/03-content/01-unit-testing';
+import { TDD } from './slides/03-content/02-tdd';
 
 // Import theme
 import createTheme from 'spectacle/lib/themes/default';
@@ -43,60 +46,9 @@ export default class Presentation extends React.Component {
         bgColor="primary"
         progress="bar"
       >
-        <Slide bgColor="primary">
-          <Heading size={1} fit caps lineHeight={1} textColor="secondary">
-          Test Driven Development
-          </Heading>
-          <Text margin="10px 0 0" textColor="tertiary" size={1} fit bold>
-            Guía básica para Desarrollo Guíado por Pruebas
-          </Text>
-          <br />
-          <br />
-          <br />
-          <Text textColor="tertiary" textSize={30}>
-            Un workshop por María Castro
-          </Text>
-         
-          <Text textColor="tertiary" textSize={25}>
-            @BlackHarpy
-          </Text>
-        </Slide>
-        <Slide>
-          <Heading size={3} textColor="secondary">
-          Contenido
-          </Heading>
-          <Heading size={5} textColor="tertiary">
-            Parte I
-          </Heading>
-          <Text size={6} textColor="tertiary">
-            Pruebas Unitarias
-          </Text>
-          <List>
-            <ListItem>¿En qué consisten?</ListItem>
-            <ListItem>Propósito y Beneficios</ListItem>
-            <ListItem>Mocks y Spies</ListItem>
-            <ListItem>Buenas prácticas</ListItem>
-            <ListItem>Liberías para pruebas unitarias</ListItem>
-          </List>
-        </Slide>
-        <Slide>
-          <Heading size={3} textColor="secondary">
-          Contenido
-          </Heading>
-          <Heading size={5} textColor="tertiary">
-            Parte II
-          </Heading>
-          <Text size={6} textColor="tertiary">
-            Desarrollo Guíado por Pruebas (TDD)
-          </Text>
-          <List>
-            <ListItem>Introducción</ListItem>
-            <ListItem>Ciclo del TDD</ListItem>
-            <ListItem>Beneficios y Limitaciones</ListItem>
-            <ListItem>TDD y BDD</ListItem>
-            <ListItem>TDD y Legacy Code</ListItem>
-          </List>
-        </Slide>
+      {Title()}
+      {UnitTestingContent()}
+      {TDD()}
         <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
           <Heading size={6} textColor="secondary" caps>
             Standard List
