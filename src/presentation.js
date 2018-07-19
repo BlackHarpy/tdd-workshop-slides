@@ -16,6 +16,7 @@ import {
 import {Title} from './slides/01-title/content';
 import { UnitTestingContent} from './slides/03-content/01-unit-testing';
 import { TDD } from './slides/03-content/02-tdd';
+import { AboutMe } from './slides/02-about-me/content';
 
 // Import theme
 import createTheme from 'spectacle/lib/themes/default';
@@ -47,6 +48,7 @@ export default class Presentation extends React.Component {
         progress="bar"
       >
       {Title()}
+      {AboutMe()}
       {UnitTestingContent()}
       {TDD()}
         <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
