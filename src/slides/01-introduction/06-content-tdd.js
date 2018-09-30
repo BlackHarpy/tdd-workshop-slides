@@ -2,20 +2,13 @@
 import React from "react";
 
 // Import Spectacle Core tags
-import {
-  Heading,
-  Slide,
-  Text,
-  List,
-  ListItem
-} from 'spectacle';
+import { Heading, Slide, Text, List, ListItem } from "spectacle";
+import { CustomHeading } from "../../custom-style";
 
-export const TDD = () => {
+export default () => {
   return (
     <Slide>
-      <Heading size={3} textColor="secondary">
-      Contenido
-      </Heading>
+      <CustomHeading>Contenido</CustomHeading>
       <Heading size={5} textColor="tertiary">
         Parte II
       </Heading>
@@ -30,5 +23,5 @@ export const TDD = () => {
         <ListItem>TDD y Legacy Code</ListItem>
       </List>
     </Slide>
-  )
+  );
 };

@@ -2,25 +2,18 @@
 import React from "react";
 
 // Import Spectacle Core tags
-import {
-  Heading,
-  Slide,
-  Text,
-  List,
-  ListItem
-} from 'spectacle';
+import { Heading, Slide, Text, List, ListItem } from "spectacle";
+import { CustomHeading } from "../../custom-style";
 
 export const AboutMe = () => {
   return (
     <Slide>
-      <Heading size={3} textColor="secondary">
-      Sobre mí
-      </Heading>
+      <CustomHeading>Sobre mí</CustomHeading>
       <List>
         <ListItem> Web UI Developer - Globant</ListItem>
         <ListItem>I {"<"}3 JS</ListItem>
         <ListItem>I {"<"}3 Agile</ListItem>
       </List>
     </Slide>
-  )
+  );
 };

@@ -2,20 +2,13 @@
 import React from "react";
 
 // Import Spectacle Core tags
-import {
-  Heading,
-  Slide,
-  Text,
-  List,
-  ListItem
-} from 'spectacle';
+import { Heading, Slide, Text, List, ListItem } from "spectacle";
+import { CustomHeading } from "../../custom-style";
 
-export const UnitTestingContent = () => {
+export default () => {
   return (
     <Slide>
-      <Heading size={3} textColor="secondary">
-      Contenido
-      </Heading>
+      <CustomHeading>Contenido</CustomHeading>
       <Heading size={5} textColor="tertiary">
         Parte I
       </Heading>
@@ -25,10 +18,10 @@ export const UnitTestingContent = () => {
       <List>
         <ListItem>¿En qué consisten?</ListItem>
         <ListItem>Propósito y Beneficios</ListItem>
-        <ListItem>Mocks y Spies</ListItem>
+        <ListItem>Conceptos Básicos</ListItem>
         <ListItem>Buenas prácticas</ListItem>
         <ListItem>Liberías para pruebas unitarias</ListItem>
       </List>
     </Slide>
-  )
+  );
 };
