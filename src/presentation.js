@@ -18,6 +18,7 @@ import UnitTestingContent from "./slides/01-introduction/05-content-unit-testing
 import TDD from "./slides/01-introduction/06-content-tdd";
 import { AboutMe } from "./slides/01-introduction/02-about-me";
 import WhyWeDontDoTests from "./slides/01-introduction/03-why-we-dont-do-tests";
+
 import WorkshopGoal from "./slides/01-introduction/04-workshop-goal";
 import UnitTestingDefinition from "./slides/02-unit-testing/01-introduction/01-unit-testing-definition";
 import DefinitionSimilarites from "./slides/02-unit-testing/01-introduction/02-unit-test-def-similarites";
@@ -31,6 +32,9 @@ import UnitTestsLimitationsKnowledge from "./slides/02-unit-testing/01-introduct
 import UnitTestsLimitationsDifficulty from "./slides/02-unit-testing/01-introduction/10-limitations-difficulty";
 import UnitTestsLimitationsTeam from "./slides/02-unit-testing/01-introduction/11-limitations-team";
 import UnitTestIntroConclusions from "./slides/02-unit-testing/01-introduction/12-conclusions";
+
+import CoreConceptsTitle from "./slides/02-unit-testing/02-core-concepts/01-title";
+import UnitTestParts from "./slides/02-unit-testing/02-core-concepts/02-unit-test-parts";
 // Import theme
 import createTheme from "spectacle/lib/themes/default";
 
@@ -78,6 +82,8 @@ export default class Presentation extends React.Component {
         {UnitTestsLimitationsDifficulty()}
         {UnitTestsLimitationsTeam()}
         {UnitTestIntroConclusions()}
+        {CoreConceptsTitle()}
+        {UnitTestParts()}
       </Deck>
     );
   }
