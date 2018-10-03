@@ -18,6 +18,9 @@ import UnitTestingContent from "./slides/01-introduction/05-content-unit-testing
 import TDD from "./slides/01-introduction/06-content-tdd";
 import { AboutMe } from "./slides/01-introduction/02-about-me";
 import WhyWeDontDoTests from "./slides/01-introduction/03-why-we-dont-do-tests";
+import Tools from "./slides/01-introduction/07-tools";
+
+import PartITitle from "./slides/02-unit-testing/01-title";
 
 import WorkshopGoal from "./slides/01-introduction/04-workshop-goal";
 import UnitTestingDefinition from "./slides/02-unit-testing/01-introduction/01-unit-testing-definition";
@@ -35,6 +38,17 @@ import UnitTestIntroConclusions from "./slides/02-unit-testing/01-introduction/1
 
 import CoreConceptsTitle from "./slides/02-unit-testing/02-core-concepts/01-title";
 import UnitTestParts from "./slides/02-unit-testing/02-core-concepts/02-unit-test-parts";
+import UnitTestPartsDetail from "./slides/02-unit-testing/02-core-concepts/03-unit-test-parts-detail";
+import MocksDefinition from "./slides/02-unit-testing/02-core-concepts/04-mocks-definition";
+import MocksExamples from "./slides/02-unit-testing/02-core-concepts/05-mocks-examples";
+import ModuleMockExample from "./slides/02-unit-testing/02-core-concepts/06-mocks-example-module";
+import SpiesDefinition from "./slides/02-unit-testing/02-core-concepts/07-spies-definition";
+import SpiesExample from "./slides/02-unit-testing/02-core-concepts/08-spies-example";
+import DifferenceWithIntegrationTests from "./slides/02-unit-testing/02-core-concepts/09-difference-integration-tests";
+import TestPyramid from "./slides/02-unit-testing/02-core-concepts/10-test-pyramid";
+
+import BestPracticesTitle from "./slides/03-best-practices/01-title";
+
 // Import theme
 import createTheme from "spectacle/lib/themes/default";
 
@@ -70,6 +84,10 @@ export default class Presentation extends React.Component {
         {WorkshopGoal()}
         {UnitTestingContent()}
         {TDD()}
+        {Tools()}
+
+        {PartITitle()}
+
         {UnitTestingDefinition()}
         {DefinitionSimilarites()}
         {UnitCode()}
@@ -82,8 +100,19 @@ export default class Presentation extends React.Component {
         {UnitTestsLimitationsDifficulty()}
         {UnitTestsLimitationsTeam()}
         {UnitTestIntroConclusions()}
+
         {CoreConceptsTitle()}
         {UnitTestParts()}
+        {UnitTestPartsDetail()}
+        {MocksDefinition()}
+        {MocksExamples()}
+        {ModuleMockExample()}
+        {SpiesDefinition()}
+        {SpiesExample()}
+        {DifferenceWithIntegrationTests()}
+        {TestPyramid()}
+
+        {BestPracticesTitle()}
       </Deck>
     );
   }

@@ -3,18 +3,10 @@ import React from "react";
 import { Heading, Appear, Slide } from "spectacle";
 import { CustomHeading } from "../../../custom-style";
 
-import {
-  functionCode,
-  classCode,
-  moduleCode
-} from "./code-examples/03-function-example";
-
 export default () => {
   return (
     <Slide>
-      <CustomHeading margin="0 0 50px 0" fit>
-        En conclusión...
-      </CustomHeading>
+      <CustomHeading fit>En conclusión...</CustomHeading>
       <Appear>
         <div>
           <Heading textColor="secondary" fit>

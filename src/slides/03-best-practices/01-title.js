@@ -1,12 +1,12 @@
 import React from "react";
 
-import { Slide, Text, BlockQuote, Quote, Cite, Appear } from "spectacle";
+import { Slide } from "spectacle";
 import { CustomHeading } from "../../custom-style";
 
 export default () => {
   return (
     <Slide>
-      <CustomHeading fit>¿Qué aprenderemos hoy?</CustomHeading>
+      <CustomHeading fit>Buenas Prácticas para Testing</CustomHeading>
     </Slide>
   );
 };

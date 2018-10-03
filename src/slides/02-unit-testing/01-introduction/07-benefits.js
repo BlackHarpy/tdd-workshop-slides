@@ -3,18 +3,10 @@ import React from "react";
 import { Appear, Slide, List, ListItem } from "spectacle";
 import { CustomHeading } from "../../../custom-style";
 
-import {
-  functionCode,
-  classCode,
-  moduleCode
-} from "./code-examples/03-function-example";
-
 export default () => {
   return (
     <Slide>
-      <CustomHeading margin="0 0 40px 0">
-        Beneficios de los Tests Unitarios
-      </CustomHeading>
+      <CustomHeading>Beneficios de los Tests Unitarios</CustomHeading>
       <List>
         <Appear>
           <ListItem>Asegurar calidad del código</ListItem>

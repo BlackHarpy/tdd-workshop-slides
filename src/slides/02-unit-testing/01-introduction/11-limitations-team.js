@@ -3,16 +3,10 @@ import React from "react";
 import { Appear, Slide, Text, List, ListItem } from "spectacle";
 import { CustomHeading } from "../../../custom-style";
 
-import {
-  functionCode,
-  classCode,
-  moduleCode
-} from "./code-examples/03-function-example";
-
 export default () => {
   return (
     <Slide>
-      <CustomHeading margin="0 0 40px 0">Limitaciones</CustomHeading>
+      <CustomHeading>Limitaciones</CustomHeading>
       <Text textColor="quartenary">"...mis compañeros no hacen tests"</Text>
       <List>
         <Appear>

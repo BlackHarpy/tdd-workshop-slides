@@ -20,7 +20,6 @@ export default () => {
         <ListItem>Propósito y Beneficios</ListItem>
         <ListItem>Conceptos Básicos</ListItem>
         <ListItem>Buenas prácticas</ListItem>
-        <ListItem>Liberías para pruebas unitarias</ListItem>
       </List>
     </Slide>
   );

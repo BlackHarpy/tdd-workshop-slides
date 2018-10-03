@@ -8,7 +8,7 @@ import { simpleModule, simpleTest } from "./code-examples/02-simple-test";
 export default () => {
   return (
     <Slide>
-      <CustomHeading margin="0 0 40px 0">Partes de un test</CustomHeading>
+      <CustomHeading>Partes de un test</CustomHeading>
       <Appear>
         <div>
           <Text textAlign="left" textColor="quartenary" textSize={22}>

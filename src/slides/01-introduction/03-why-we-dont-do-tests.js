@@ -8,22 +8,22 @@ export default () => {
     <Slide>
       <CustomHeading>¿Por qué no hacemos tests?</CustomHeading>
       <Appear>
-        <Text textColor="tertiary" textAlign="left">
+        <Text textColor="secondary" textAlign="left">
           "...no hay tiempo"
         </Text>
       </Appear>
       <Appear>
-        <Text textColor="tertiary" textAlign="left">
+        <Text textColor="secondary" textAlign="left">
           "...no sé cómo"
         </Text>
       </Appear>
       <Appear>
-        <Text textColor="tertiary" textAlign="left">
+        <Text textColor="secondary" textAlign="left">
           "...es difícil/fastidioso"
         </Text>
       </Appear>
       <Appear>
-        <Text textColor="tertiary" textAlign="left">
+        <Text textColor="secondary" textAlign="left">
           "...mis compañeros no hacen tests"
         </Text>
       </Appear>
