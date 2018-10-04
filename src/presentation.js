@@ -48,7 +48,14 @@ import DifferenceWithIntegrationTests from "./slides/02-unit-testing/02-core-con
 import TestPyramid from "./slides/02-unit-testing/02-core-concepts/10-test-pyramid";
 
 import BestPracticesTitle from "./slides/03-best-practices/01-title";
+import WhatMakesAGoodTest from "./slides/03-best-practices/02-what-is-a-good-unit-test";
+import WhatToTest from "./slides/03-best-practices/03-what-to-test";
+import TestableCode from "./slides/03-best-practices/04-testable-code";
+import NonTestableCodeSigns from "./slides/03-best-practices/05-non-testable-code-signs";
+import WritingTestableCode from "./slides/03-best-practices/06-writing-testable-code";
 
+import TDDTitle from "./slides/03-test-driven-development/01-title";
+import TDDDefinition from "./slides/03-test-driven-development/02-tdd-definition";
 // Import theme
 import createTheme from "spectacle/lib/themes/default";
 
@@ -113,6 +120,14 @@ export default class Presentation extends React.Component {
         {TestPyramid()}
 
         {BestPracticesTitle()}
+        {WhatMakesAGoodTest()}
+        {WhatToTest()}
+        {TestableCode()}
+        {NonTestableCodeSigns()}
+        {WritingTestableCode()}
+
+        {TDDTitle()}
+        {TDDDefinition()}
       </Deck>
     );
   }
