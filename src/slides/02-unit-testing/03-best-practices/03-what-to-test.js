@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Text, S, Appear, Slide, List, ListItem } from "spectacle";
-import { CustomHeading } from "../../custom-style";
+import { CustomHeading } from "../../../custom-style";
 
 export default () => {
   return (

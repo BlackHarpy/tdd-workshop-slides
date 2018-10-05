@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Text, S, Appear, Slide, List, ListItem } from "spectacle";
-import { CustomHeading } from "../../custom-style";
+import { CustomHeading } from "../../../custom-style";
 
 export default () => {
   return (
@@ -21,10 +21,6 @@ export default () => {
             <ListItem>
               <S type="bold">Efectos Secundarios:</S> Mutaciones de estados
               externos al scope de la unidad de código a probar.
-            </ListItem>
-            <ListItem>
-              <S type="bold">Estados globales:</S> Funcionamiento dependiente de
-              condiciones externas al scope.
             </ListItem>
             <ListItem>
               <S type="bold">Estados globales:</S> Funcionamiento dependiente de

@@ -17,7 +17,7 @@ export default () => {
       </Appear>
       <Appear>
         <Text textColor="secondary">
-          Para åestos comportamientos de más alto nivel existen otros tipos de
+          Para estos comportamientos de más alto nivel existen otros tipos de
           pruebas distintas a los tests unitarios.
         </Text>
       </Appear>
